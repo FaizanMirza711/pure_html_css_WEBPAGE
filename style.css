@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Poppins:wght@100&family=REM:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:ital,wght@1,600&family=Poppins:wght@100&family=REM:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+
+  
+}
+.Animation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Animation:hover{
+   cursor: pointer;
+   /* transform: scale(3, 0.5);
+   transition: transform 330ms ease-in-out; */
+
+}
+.Navbar{
+    display: block;
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    background-color:black;
+    position: fixed;
+    z-index: 5;
+}
+.Navbar ul {
+    display: block;
+}
+.Navbar ul li {
+    margin: 20px 20px 20px 20px;
+   padding-right: 10px;
+    font-family:Poppins;
+    font-weight: 400;
+    float: right;
+    text-decoration: none;
+    font-size: large;
+}
+.Navbar ul li :hover{
+    color:#e3c354;
+    cursor: pointer;
+}
+.Navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30px;
+    display: inline;
+}
+.Navbar h1{
+    float: left;
+    font-family: Borel;
+    margin: 20px 20px 20px 20px;
+    
+}
+.welcome{
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ************************************************************************************************* */
+.two{
+    display: relative;
+    position: static;
+    background-color :rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+
+}
+.content{
+    position: absolute;
+    overflow-wrap: break-word;
+    width: 500px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: 56vw;
+    margin-top: 120px;
+
+} 
+.content:hover{
+    transform: translateY(-42px);
+    transition: transform 330ms ease-in-out;
+    cursor: pointer;
+}
+.content .text{
+    color: aliceblue;
+    position: absolute;
+    font-family: Poppins;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px 1px rgba(207, 207, 207, 0.3);
+    font-size: 21px;
+
+}
+.content .text footer{
+width: 100%;
+position: absolute;
+margin-bottom: 5px;
+font-size: 17px;
+text-align: center;
+font-style: italic;
+text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+.hand{
+    position: absolute;
+    margin-top: 55vh;
+}
+/* ************************************************************************************************** */
+.three{
+    height: 85vh;
+    width: 100vw;
+  
+}
+.boxes{
+    padding: 28px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 20vw 20vw;
+    grid-gap: 1rem;
+    justify-content: center;
+
+}
+.box{
+    color: azure;
+    text-align: centre;
+    font-size: large;
+    font-weight: 300;
+    font-family: Poppins;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.box:hover{
+    transform: translateY(-42px);
+    transition: transform 330ms ease-in-out;
+    cursor: pointer;
+}
+
+
+/* ************************************************************************************************** */
+
+.contact{
+    background-color: black;
+    height: 85vh;
+    width: 100vw;
+}
+input[type =text]{
+ width: 60%;
+ padding: 12px 20px;
+ margin: 8px 0px;
+ display: inline-block ;
+ border: 1px solid #ccc ;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+input[type =email]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block ;
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+input[type =submit]{
+    width: 60%;
+    color: black;
+    background-color: aliceblue;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form{
+    color: aliceblue;
+    float: right;
+}
+.socials ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30px;
+    display: inline;
+}
+.socials ul li a:hover{
+    color:#e3c354;
+    cursor: pointer;
+}
+.socials  {
+    display: block;
+    width: 100%;
+    float: right;
+    align-items: end;
+    background-color: black
+    ;
+}
+.socials li{
+    margin: 20px 20px 20px 20px;
+    padding-right: 10px;
+     font-family:Poppins;
+     font-weight: 400;
+     float: left;
+     text-decoration: none;
+     font-size: large;
+}
